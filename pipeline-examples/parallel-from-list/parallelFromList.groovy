@@ -3,7 +3,7 @@
 // parallel.
 
 // Our initial list of strings we want to echo in parallel
-def stringsToEcho = ["a", "b", "c", "d"]
+def stringsToEcho = ["a", "b", "c", "dirk"]
 
 // The map we'll store the parallel steps in before executing them.
 def stepsForParallel = stringsToEcho.collectEntries {
